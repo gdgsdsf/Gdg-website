@@ -1,0 +1,21 @@
+:root {
+  /* ... existing light mode vars ... */
+  --footer-bg: #f8f9fa;
+  --footer-text: #6c757d;
+  --footer-border: #e9ecef;
+  --nav-text: #212529; /* Added to match your Navbar request */
+  --nav-bg-scrolled: rgba(255, 255, 255, 0.9);
+  --nav-border: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  /* ... existing dark mode vars ... */
+  --footer-bg: #0b1120; /* Slightly darker than the main bg for depth */
+  --footer-text: #94a3b8;
+  --footer-border: rgba(255, 255, 255, 0.05);
+  --nav-text: #f8f9fa;
+  --nav-bg-scrolled: rgba(15, 23, 42, 0.95);
+  --nav-border: rgba(255, 255, 255, 0.1);
+  --logo-filter: brightness(0) invert(1);
+  --toggler-filter: invert(1);
+}
