@@ -1,0 +1,68 @@
+[
+    {
+        "name": "PPT/Project Discussion Session, 11th February 2025",
+        "caraousel_id": "PPT-Project-Discussion-Session",
+        "images": [
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG20250211155452_BXYqi3H.jpg",
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG20250211155502_kGgPn5K.jpg",
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG20250211155922_J0H7yR8.jpg",
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG20250211162633_19DzMTt.jpg",
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG20250211155433_HTAu7Gg.jpg"
+        ]
+    },
+    {
+        "name": "Community Connect, 18th October 2024",
+        "caraousel_id": "community-connect",
+        "images": [
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG_20241018_102051415_nXnOu4N.jpg",
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG_20241018_103504665_JNs7ZdM.jpg",
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG_20241018_110414926_uKQqCWI.jpg",
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG_20241018_110848724_c1AXLFT.jpg",
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG_20241018_111314573_qRxi5OI.jpg",
+            "https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/IMG_20241018_111332245_Y7Wd1L1.jpg"
+        ]
+    },
+    {
+        "name": "Google Cloud Study Jams Swag Destribution, 22nd February 2024",
+        "caraousel_id": "gcsj",
+        "images": [
+            "https://i.imgur.com/EHbwLeX.jpeg",
+            "https://i.imgur.com/XNl1cnC.jpeg",
+            "https://i.imgur.com/c7fE6PQ.jpeg",
+            "https://i.imgur.com/BZV4LNH.jpeg",
+            "https://i.imgur.com/fiChrCw.jpeg"
+        ]
+    },
+    {
+        "name": "GDSC SDSF Collab With Zeeve, 26th February 2023",
+        "caraousel_id": "zeeve",
+        "images": [
+            "https://i.imgur.com/tKXx0aE.jpeg",
+            "https://i.imgur.com/gdCY8yE.jpeg",
+            "https://i.imgur.com/ln6H9XY.jpeg",
+            "https://i.imgur.com/RNULGWN.jpeg",
+            "https://i.imgur.com/zMA8aEZ.jpeg",
+            "https://i.imgur.com/kt9OTIV.jpeg",
+            "https://i.imgur.com/kqg881A.jpeg",
+            "https://i.imgur.com/W3EYNEh.jpeg",
+            "https://i.imgur.com/GxVOHfw.jpeg",
+            "https://i.imgur.com/rCH12rb.jpeg"
+        ]
+    },
+    {
+        "name": "TechLaunchPad, 17th February 2023",
+        "caraousel_id": "tlp23",
+        "images": [
+            "https://i.imgur.com/qbh3dsb.jpeg",
+            "https://i.imgur.com/nGAN8Vw.jpeg",
+            "https://i.imgur.com/0GEBdRX.jpeg",
+            "https://i.imgur.com/sWIaH4K.jpeg",
+            "https://i.imgur.com/tI2wYEw.jpeg",
+            "https://i.imgur.com/BoKyFd9.jpeg",
+            "https://i.imgur.com/3t2CREa.jpeg",
+            "https://i.imgur.com/Co5oF4t.jpeg",
+            "https://i.imgur.com/Osath3u.jpeg",
+            "https://i.imgur.com/rt4G0XF.jpeg"
+        ]
+    }
+]
