@@ -1,5 +1,34 @@
 [
     {
+        "name": "Master Git & GitHub – Version Control Simplified, 30th December 2024",
+        "caraousel_id": "master-git-github-2024",
+        "images": [
+            "https://res.cloudinary.com/dzsnamfwq/image/upload/v1771160664/github_sessison_sfx3wr.png"
+        ]
+    },
+    {
+        "name": "TechSprint Hackathon – Info Session, 26th December 2024",
+        "caraousel_id": "techsprint-info-session-2024",
+        "images": [
+            "https://res.cloudinary.com/dzsnamfwq/image/upload/v1771159839/techsprint_infor_session_i01gmi.png"
+        ]
+    },
+    
+    {
+        "name": "Intro to Google Cloud Study Jams, 9th October 2025",
+        "caraousel_id": "intro-gcsj-2025",
+        "images": [
+            "https://res.cloudinary.com/dzsnamfwq/image/upload/v1771160453/cloud_st_jam-2_ulasmv.png"
+        ]
+    },
+    {
+        "name": "GDG Overview, Upcoming Events, Announcement of Next GDG Lead, 22nd September 2025",
+        "caraousel_id": "gdg-overview-2025",
+        "images": [
+            "https://res.cloudinary.com/dzsnamfwq/image/upload/v1771160590/gdg_lead_announcement_yqlcit.png"
+        ]
+    },
+    {
         "name": "PPT/Project Discussion Session, 11th February 2025",
         "caraousel_id": "PPT-Project-Discussion-Session",
         "images": [

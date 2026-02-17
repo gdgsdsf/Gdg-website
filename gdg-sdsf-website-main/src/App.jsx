@@ -10,6 +10,7 @@ import Events from './events/Events';
 import Flashback from './flashback/Flashback';
 import Team from './team/Team';
 import ContactUs from './contact-us/ContactUs';
+import TechSprint from './techsprint/TechSprint';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -104,6 +105,11 @@ const AppContent = () => {
                     <Route path="/contact-us" element={
                         <PageTransition>
                             <ContactUs />
+                        </PageTransition>
+                    } />
+                    <Route path="/techsprint" element={
+                        <PageTransition>
+                            <TechSprint />
                         </PageTransition>
                     } />
                     <Route path="*" element={
