@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react'; // Added useState
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -32,7 +32,6 @@ const PageTransition = ({ children }) => {
     const location = useLocation();
 
     useEffect(() => {
-        // Page transition animation
         gsap.to(".page-transition", {
             duration: 0,
             opacity: 1,
@@ -43,7 +42,7 @@ const PageTransition = ({ children }) => {
             duration: 0.5,
             opacity: 0,
             y: 20,
-            ease: "power2.out"
+            刻ease: "power2.out"
         });
     }, [location]);
 
@@ -57,9 +56,20 @@ const PageTransition = ({ children }) => {
 // App wrapper to use location
 const AppContent = () => {
     const location = useLocation();
+    
+    // --- Theme State Lifted from Navbar ---
+    const [isDark, setIsDark] = useState(
+        localStorage.getItem('theme') === 'dark'
+    );
+
+    useEffect(() => {
+        const theme = isDark ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        document.documentElement.setAttribute('data-bs-theme', theme); 
+        localStorage.setItem('theme', theme);
+    }, [isDark]);
 
     useGSAP(() => {
-        // Initial page load animation
         gsap.from("body", {
             opacity: 0,
             duration: 0.8,
@@ -74,7 +84,9 @@ const AppContent = () => {
             flexDirection: 'column'
         }}>
             <ScrollToTop />
-            <Navbar />
+            {/* Pass state to Navbar */}
+            <Navbar isDark={isDark} setIsDark={setIsDark} />
+            
             <main style={{ flex: 1, position: 'relative' }}>
                 <Routes location={location}>
                     <Route path="/" element={
@@ -104,7 +116,8 @@ const AppContent = () => {
                     } />
                     <Route path="/contact-us" element={
                         <PageTransition>
-                            <ContactUs />
+                            {/* Pass dark prop to ContactUs */}
+                            <ContactUs dark={isDark} />
                         </PageTransition>
                     } />
                     <Route path="/techsprint" element={
@@ -145,4 +158,4 @@ function App() {
     );
 }
 
-export default App
+export default App;

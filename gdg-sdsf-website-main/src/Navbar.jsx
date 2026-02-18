@@ -5,25 +5,14 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 
 // --- ThemeToggle Component ---
-const ThemeToggle = () => {
-    const [isDark, setIsDark] = useState(
-        localStorage.getItem('theme') === 'dark'
-    );
-
-    useEffect(() => {
-        const theme = isDark ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', theme);
-        document.documentElement.setAttribute('data-bs-theme', theme); 
-        localStorage.setItem('theme', theme);
-    }, [isDark]);
-
+const ThemeToggle = ({ isDark, setIsDark }) => {
     return (
         <div 
             onClick={() => setIsDark(!isDark)}
             className="theme-toggle-btn"
             style={{
                 cursor: 'pointer',
-                fontSize: '1.6rem', // Increased icon size
+                fontSize: '1.6rem',
                 marginLeft: '20px',
                 transition: 'all 0.3s ease',
                 display: 'flex',
@@ -40,7 +29,7 @@ const ThemeToggle = () => {
 };
 
 // --- Main Navbar Component ---
-const Navbar = () => {
+const Navbar = ({ isDark, setIsDark }) => {
     const [scrolled, setScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const location = useLocation();
@@ -68,7 +57,7 @@ const Navbar = () => {
         position: 'sticky',
         top: 0,
         zIndex: 1000,
-        padding: scrolled ? '15px 0' : '25px 0', // Larger padding when not scrolled
+        padding: scrolled ? '15px 0' : '25px 0', 
         backdropFilter: scrolled ? 'blur(10px)' : 'none',
         borderBottom: scrolled ? '1px solid var(--nav-border)' : 'none',
     };
@@ -82,7 +71,7 @@ const Navbar = () => {
                     <img src={banner} alt="GDG SDSF" 
                         className="nav-logo"
                         style={{
-                            width: window.innerWidth < 768 ? '220px' : '350px', // Larger Logo size
+                            width: window.innerWidth < 768 ? '220px' : '350px',
                             transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
                             transform: scrolled ? 'scale(0.85)' : 'scale(1)',
                             filter: 'var(--logo-filter)' 
@@ -92,7 +81,7 @@ const Navbar = () => {
 
                 <div className="d-flex align-items-center">
                     <div className="d-md-none me-3">
-                        <ThemeToggle />
+                        <ThemeToggle isDark={isDark} setIsDark={setIsDark} />
                     </div>
 
                     <button
@@ -107,9 +96,9 @@ const Navbar = () => {
 
                 <div className={`collapse navbar-collapse justify-content-end ${mobileMenuOpen ? 'show' : ''}`} id="navbarNav">
                     <ul className="navbar-nav align-items-center">
-                        {['/', '/events', '/flashback', '/team'].map((path, index) => {
-                            const labels = ['Home', 'Events', 'Flashback', 'Team'];
-                            const colors = ['#4285F4', '#EA4335', '#FBBC05', '#34A853'];
+                        {['/', '/events', '/flashback', '/team','/contact-us'].map((path, index) => {
+                            const labels = ['Home', 'Events', 'Flashback', 'Team', 'Contact Us'];
+                            const colors = ['#4285F4', '#EA4335', '#FBBC05', '#34A853', '#34A853'];
                             return (
                                 <li className="nav-item" key={path}>
                                     <Link 
@@ -118,7 +107,7 @@ const Navbar = () => {
                                         style={{ 
                                             color: 'var(--nav-text)', 
                                             fontWeight: '600', 
-                                            fontSize: '1.15rem', // Larger Font Size
+                                            fontSize: '1.15rem',
                                             transition: 'color 0.3s ease'
                                         }}
                                         onMouseEnter={(e) => gsap.to(e.target, { color: colors[index], y: -2, duration: 0.2 })}
@@ -141,7 +130,7 @@ const Navbar = () => {
                         </li>
                         
                         <li className="nav-item d-none d-md-block">
-                            <ThemeToggle />
+                            <ThemeToggle isDark={isDark} setIsDark={setIsDark} />
                         </li>
                     </ul>
                 </div>
