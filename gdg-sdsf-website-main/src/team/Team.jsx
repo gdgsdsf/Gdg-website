@@ -6,7 +6,7 @@ const Team = () => {
     return (
         <>
             <div className='container my-5'>
-                <Cards session={"Team 2025-26"} teamData={teamData["Team 2025-26"]} />
+                <Cards session={"Team 2025-26 (Ongoing)"} teamData={teamData["Team 2025-26"]} />
                 <Cards session={"Team 2024-25"} teamData={teamData["Team 2024-25"]} />
                 <Cards session={"Team 2023-24"} teamData={teamData["Team 2023-24"]} />
                 <Cards session={"Team 2022-23"} teamData={teamData["Team 2022-23"]} />
