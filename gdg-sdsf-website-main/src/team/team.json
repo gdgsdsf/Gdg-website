@@ -1,4 +1,86 @@
 {
+    "Team 2025-26": [
+        {
+            "name": "Aditi Bande",
+            "role": "GDGoC Organizer",
+            "image": "/team-photos/aditi_bande.webp",
+            "github": "https://github.com/EdwinRodger",
+            "linkedin": "https://www.linkedin.com/in/vaidik-lotan/",
+            "instagram": "https://www.instagram.com/vaidik_ftw/"
+        },
+        {
+            "name": "Akansha Singh",
+            "role": "AI & ML Lead",
+            "image": "/team-photos/akansha.jpeg",
+            "github": "https://github.com/akanksha-1212",
+            "linkedin": "https://www.linkedin.com/in/akanksha-singh-73b27b334/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "instagram": "https://www.instagram.com/_akanksha__singhh?igsh=azY2MXp3NHEyeTU2"
+        },
+        {
+            "name": "Jahnavi Mishra",
+            "role": "Web Dev Lead",
+            "image": "/team-photos/jahnavi.jpeg",
+            "github": "https://github.com/MissJahnavi",
+            "linkedin": "https://www.linkedin.com/in/jahnavi-mishra-31b075335/",
+            "instagram": "https://www.instagram.com/jahnavi._mishra?igsh=bWQycDk5cncyNzI4"
+        },
+        {
+            "name": "Alivia Hossain",
+            "role": "Web Dev Co-Lead",
+            "image": "/team-photos/Aliviaprofile.jpeg",
+            "github": "https://github.com/aliviahossain",
+            "linkedin": "https://www.linkedin.com/in/alivia-hossain-513a3a365/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app%22",
+            "instagram": "https://www.instagram.com/aliviahossain/"
+        },
+        {
+            "name": "Arayna Dwivedi",
+            "role": "PR & Marketing Lead",
+            "image": "/team-photos/arayna.jpeg",
+            "github": "https://github.com/Araynadwivedi2006",
+            "linkedin": "https://www.linkedin.com/in/arayna-dwivedi-363347333?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+            "instagram": "https://www.instagram.com/_.araynaaaaaa._?igsh=MnQ3eDNvaDlmeDE0"
+        },
+        {
+            "name": "Divyansh Brijwasi",
+            "role": "Editing & Production Lead",
+            "image": "/team-photos/divyansh.jpeg",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/vedanshmehta098/",
+            "instagram": "https://www.instagram.com/vedansh.m_/"
+        },
+        {
+            "name": "Urvi Pandey",
+            "role": "Cloud Lead",
+            "image": "/team-photos/urvi-pandey-picture.jpeg",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/lakshya-porwal-sdsf-davv/",
+            "instagram": "https://www.instagram.com/_la.k.s.h.ya/"
+        },
+        {
+            "name": "Keshrati Kumud Bisen",
+            "role": "Android Lead",
+            "image": "/team-photos/kumud.jpeg",
+            "github": "https://github.com/kumudbisen05",
+            "linkedin": "https://www.linkedin.com/in/keshratikumudbisen0504/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "instagram": "https://www.instagram.com/kumud_0504?igsh=YXBrZTIwcHRhOHds"
+        },
+        {
+            "name": "Pankhudi Sharma",
+            "role": "Graphic Design Lead",
+            "image": "/team-photos/pankhudi.jpeg",
+            "github": "https://github.com/pankhudisharma",
+            "linkedin": "https://www.linkedin.com/in/pankhudi-sharma-7b0bb6259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "instagram": "https://www.instagram.com/pankhudiisharma?igsh=MWdkbWhoeDhqdXd0Ng=="
+        },
+        {
+            "name": "Devanshi Mudgal",
+            "role": "Graphic Design Co-Lead",
+            "image": "/team-photos/.webp",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/mansha-bajpai-6466ab288/",
+            "instagram": "https://www.instagram.com/mansha.bajpai1505/"
+        }
+    ],
     "Team 2024-25": [
         {
             "name": "Vaidik Lotan",
