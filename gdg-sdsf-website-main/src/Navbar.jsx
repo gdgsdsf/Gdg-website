@@ -118,7 +118,7 @@ const Navbar = ({ isDark, setIsDark }) => {
                                 </li>
                             );
                         })}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link px-4" href="mailto:gdsc.sdsf@gmail.com" 
                                 style={{ 
                                     color: 'var(--nav-text)', 
@@ -127,7 +127,7 @@ const Navbar = ({ isDark, setIsDark }) => {
                                 }}>
                                 Contact Us
                             </a>
-                        </li>
+                        </li> */}
                         
                         <li className="nav-item d-none d-md-block">
                             <ThemeToggle isDark={isDark} setIsDark={setIsDark} />
